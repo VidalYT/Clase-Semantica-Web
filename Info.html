@@ -7,7 +7,7 @@
         <!-- Display ayuda a que la informacion sea flexible al formato de la web-->
         <!-- Padding ayuda a que la informacion no se junte y este espaciado-->
         <style>
-            header {
+            .head1 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -84,7 +84,7 @@
             h1, h2,h3, p, nav { font-family: Arial; }
         </style>
     </head>
-        <header style="color:#4c4c4cca">
+        <header class="head1" style="color:#4c4c4cca">
             
             <div>
                 <h1 style="margin: 0;">Mi Sitio Web "AYLEE"</h1>
@@ -107,8 +107,17 @@
             <!-- Esta seccion muestra el bloque de contenido -->
             <section>
                 <article>
-                    <h2 style="text-align: center;">¡Bienvenido a mi sitio web personal!</h2>
-                    <p>Contenido del articulo</p>
+                    <header style="text-align: center;">
+                        <h2>¡Bienvenido a mi sitio web personal!</h2>
+                        <p>En este sitio web encontraras informacion personal acerca de todas mis ideas, pensamientos 
+                            y proyectos futuros de mi.
+                        </p>
+                        <hr>
+                    </header>
+                    <div style="text-align: center;">
+                        <img src="imagenes/parappa.webp" alt="soon" style="width: 25%;">
+                        <p>Comming Soon ...</p>
+                    </div>
                 </article>
             </section>
         </main>
