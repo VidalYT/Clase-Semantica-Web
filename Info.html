@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Etiqueta para permitir caracteres (Acento) -->
+        <meta charset="UTF-8">
+        <title>Peninsula de Yucatán</title>
+        <!-- Display ayuda a que la informacion sea flexible al formato de la web-->
+        <!-- Padding ayuda a que la informacion no se junte y este espaciado-->
+        <style>
+            header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: #dbdee1;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                padding: 10px 20px;
+            }
+            main {
+                display:flex;
+                color: #414748;
+                gap: 20px;
+            }
+            aside {
+                width: 25%;
+                background-color: #dbdee1;
+                padding: 15px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                text-align: center;
+                margin: 0px;
+            }
+            section {
+                width: 75%;
+                background-color: #ceddf5;
+                padding: 15px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+            footer {
+                text-align: center;
+                padding: 10px 10px;
+            }
+            .logo-cabecera {
+                max-width: 10%;
+                height: auto;
+                display: block;
+                margin-bottom: 15px;
+                /* Espacio entre la imagen y el título */
+                border-radius: 100px;
+                padding: 15px;
+            }
+            .barra-navegacion {
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton {
+                margin: 1px;
+                text-decoration: none;
+                color: #414748;
+                background-color: #cad1d3;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+                transition: background-color 0.3s;
+            }
+            .boton-activo {
+                margin: 1px;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #6f787a;
+                color: #c1ced0;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+            }
+            .boton:hover {
+                background-color: #6f787a;
+                color: #c1ced0;
+            }
+
+            h1, h2,h3, p, nav { font-family: Arial; }
+        </style>
+    </head>
+        <header style="color:#4c4c4cca">
+            
+            <div>
+                <h1 style="margin: 0;">Mi Sitio Web "AYLEE"</h1>
+                <hr>
+                <nav class="Barra-navegacion" style="margin-top: 10px;">
+                <a href="Info.html" class="boton-activo">Info</a>
+                <a href="Musica.html" class="boton">Musica</a>
+                <a href="Dibujo.html" class="boton">Dibujo</a>
+            </nav>
+            </div>
+            <img src="imagenes/logo-web.jpg" alt="Logo de la web" class="logo-cabecera">
+        </header>
+        
+
+        <main>
+            <aside>
+                <h3>¡ Publicidad !</h3>
+                <img src="imagenes/anuncio-oasis.jpg" width="300" height="450">
+            </aside>
+            <!-- Esta seccion muestra el bloque de contenido -->
+            <section>
+                <article>
+                    <h2 style="text-align: center;">¡Bienvenido a mi sitio web personal!</h2>
+                    <p>Contenido del articulo</p>
+                </article>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <p>Sitio web de Santos Iturbe Néstor Vidal</p>
+            <p>5BV-PG</p>
+        </footer>
+    <body>
+    </body>
+</html>

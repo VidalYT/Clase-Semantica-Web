@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Etiqueta para permitir caracteres (Acento) -->
+        <meta charset="UTF-8">
+        <title>Peninsula de Yucatán</title>
+        <!-- Display ayuda a que la informacion sea flexible al formato de la web-->
+        <!-- Padding ayuda a que la informacion no se junte y este espaciado-->
+        <style>
+            .head1 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                background-color: #dbdee1;
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+                padding: 10px 20px;
+            }
+            .head2 {
+                display: flex;
+                justify-content:space-between;
+            }
+            main {
+                display:flex;
+                color: #414748;
+                gap: 20px;
+            }
+            aside {
+                width: 25%;
+                background-color: #dbdee1;
+                padding: 15px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+                text-align: center;
+                margin: 0px;
+            }
+            section {
+                width: 75%;
+                background-color: #ceddf5;
+                padding: 15px;
+                border-bottom-left-radius: 25px;
+                border-bottom-right-radius: 25px;
+            }
+            footer {
+                text-align: center;
+                padding: 10px 10px;
+            }
+            .logo-cabecera {
+                max-width: 10%;
+                height: auto;
+                display: block;
+                margin-bottom: 15px;
+                /* Espacio entre la imagen y el título */
+                border-radius: 100px;
+                padding: 15px;
+            }
+            .barra-navegacion {
+                display: flex;
+                gap: 15px;
+                margin-top: 10px;
+            }
+            .boton {
+                margin: 1px;
+                text-decoration: none;
+                color: #414748;
+                background-color: #cad1d3;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+                transition: background-color 0.3s;
+            }
+            .boton-activo {
+                margin: 1px;
+                font-weight: bold;
+                text-decoration: none;
+                background-color: #6f787a;
+                color: #c1ced0;
+                border-radius: 4px;
+                padding: 6px 12px;
+                font-size: 15px;
+            }
+            .boton:hover {
+                background-color: #6f787a;
+                color: #c1ced0;
+            }
+            .images-flat {
+                border-radius: 5px;
+                width: 275px;
+                height: 400px;
+                object-fit: cover;
+            }
+            .titulo-sobresaliente {
+                background-color: #56757c46;
+                border-radius: 15px;
+                padding: 10px 10px;
+            }
+
+            h1, h2,h3, p, nav { font-family: Arial; }
+        </style>
+    </head>
+        <header class="head1" style="color:#4c4c4cca">
+            
+            <div>
+                <h1 style="margin: 0;">Mi Sitio Web "AYLEE"</h1>
+                <hr>
+                <nav class="Barra-navegacion" style="margin-top: 10px;">
+                <a href="Info.html" class="boton">Info</a>
+                <a href="Musica.html" class="boton-activo">Musica</a>
+                <a href="Dibujo.html" class="boton">Dibujo</a>
+            </nav>
+            </div>
+            <img src="imagenes/logo-web.jpg" alt="Logo de la web" class="logo-cabecera">
+        </header>
+        <main>
+            <aside>
+                <h3>¡ Publicidad !</h3>
+                <img src="imagenes/anuncio-oasis.jpg" width="300" height="450">
+            </aside>
+            <!-- Esta seccion muestra el bloque de contenido -->
+            <section>
+                <article>
+                    <header class="head2">
+                        <div style="margin: 15px;">
+                            <h2>¡Gusto musical!</h2>
+                            <p>En este apartado se encontrara los gustos musicales que comparto yo, pues me encanta escuchar
+                                musica y seria un honor compartirlo en este apartado. 
+                            </p>
+                        </div>
+                    </header>
+                    <div style="justify-content: space-between; display: flex;">
+                        <div style="margin: 0px 10px;">
+                            <h3 class="titulo-sobresaliente">1.- Oasis.</h3>
+                            <p>Una banda nacida en Inglaterra, popularizado por el movimiento Britpop de aquella epoca, es una 
+                                de las bandas más importantes de los 90s, marcando por su sonido unico y la simplicidad de sus 
+                                canciones que hacian que cada persona pueda sentirse representado en aquellas bellas baladas.
+                                Esta banda fue formada en 1991 bajo el nombre de "The Rain". Pronto, despues de que ingresara Noel 
+                                Gallagher (Hermano del vocalista Liam Gallagher) el nombre de la banda fue cambiada a "Oasis".
+                            </p>
+                            <p>Esta banda es de mis favoritas, por su gran sonido, lo honestas que son sus letras, y la energia 
+                                que da la voz de Liam Gallagher.
+                            </p>
+                        </div>
+                        <img src="imagenes/musica/oasis-music.jpg" alt="slider" class="images-flat">
+                    </div>
+                    <div style="justify-content: space-between; display: flex;">
+                        <img src="imagenes/musica/abandonedpools-music.jfif" alt="slider" class="images-flat">
+                        <div style="margin: 0px 10px;">
+                            <h3 class="titulo-sobresaliente">2.- Abandoned Pools.</h3>
+                            <p>Este fue un proyecto musical formado por Tommy Walter en 1997, donde exploraba multiples sonidos y melodias 
+                                unicas que permitian expresar cada momento y sentimiento de su vida. Aunque no exploto de popularidad, 
+                                su musica destaca por lo hermosas que estan y su gran habilidad de Tommy Walter para ajustar sonidos 
+                                y ambientar su musica de forma retrospectiva.
+                            </p>
+                            <p>Esta "banda" brilla por su sonido melancolico y el uso de melodias suaves pero a su vez potentes que 
+                                dan esa motivación a nuestros dias.
+                            </p>
+                        </div>
+                    </div>
+                    <div style="justify-content: space-between; display: flex;">
+                        <div style="margin: 0px 10px;">
+                            <h3 class="titulo-sobresaliente">3.- Arctic Monkeys.</h3>
+                            <p>Esta banda nacida en Inglaterra, fue formada bajo el nombre de Arctic Monkeys en los 2000s. Reconocida por 
+                                ser de las primeras bandas exitosas por ayuda del internet, se acompaña de varios albums caracterizados 
+                                por tener diferentes sonidos, representando las multiples facetas de el sonido, estilo y pensamiento de la 
+                                banda. 
+                            </p>
+                            <p>Como la anterior banda "Oasis", esta banda me gusta por lo representativos que pueden ser en cada album. 
+                                Aunque me guste más las canciones con guitarras distorcionadas, gran parte de su repertorio musical es 
+                                muy bueno por lo tranquilas y experimentales que tienden a ser.
+                            </p>
+                        </div>
+                        <img src="imagenes/musica/AM-music.jpg" alt="slider" class="images-flat">
+                    </div>
+                </article>
+            </section>
+        </main>
+        <hr>
+        <footer>
+            <p>Sitio web de Santos Iturbe Néstor Vidal</p>
+            <p>5BV-PG</p>
+        </footer>
+    <body>
+    </body>
+</html>
